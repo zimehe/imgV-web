@@ -1,8 +1,87 @@
 {
-  "北京": {
-    "东城区": [
+  "广东": {
+    "广州市": [
       {
         "id": 1,
+        "name": "陈家祠",
+        "description": "岭南建筑艺术的瑰宝，广东民间工艺博物馆",
+        "images": [
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "陈家祠堂又称陈氏书院，位于广州市中山七路。陈家祠堂为广东省陈氏的合族祠堂，始建于清光绪十四年（1888年），建成于光绪二十年（1894年），历时七年。是广东规模最大、装饰华丽、保存完好的传统岭南祠堂式建筑。"
+      },
+      {
+        "id": 2,
+        "name": "广州塔",
+        "description": "广州新地标，现代化观光塔",
+        "images": [
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "广州塔是广州市的标志性建筑，总高度600米，是中国第一高塔，世界第二高塔。集都市观光、至高游乐、时尚餐饮、婚庆会展、影视娱乐、环保科普、文化教育、购物休闲等多功能于一体。"
+      }
+    ],
+    "深圳市": [
+      {
+        "id": 3,
+        "name": "世界之窗",
+        "description": "世界著名景观的微缩景区",
+        "images": [
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "世界之窗位于广东省深圳市深圳湾社区深南大道，是中国著名的缩微景区，以弘扬世界文化为宗旨，是一个把世界奇观、历史遗迹、古今名胜、民族歌舞表演融为一体的人造主题公园。"
+      }
+    ],
+    "珠海市": [
+      {
+        "id": 4,
+        "name": "珠海渔女",
+        "description": "珠海市标志性雕塑",
+        "images": [
+          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "珠海渔女是珠海市的标志，也是珠海市的象征。雕像高8.7米，重10吨，用花岗岩石分70件组合而成，是中国著名雕塑家潘鹤的杰作。"
+      }
+    ],
+    "佛山市": [
+      {
+        "id": 5,
+        "name": "祖庙",
+        "description": "佛山历史文化名胜",
+        "images": [
+          "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "佛山祖庙位于广东省佛山市禅城区，始建于北宋元丰年间，是供奉道教真武玄天上帝的神庙，也是佛山历史文化的重要载体。"
+      }
+    ],
+    "东莞市": [
+      {
+        "id": 6,
+        "name": "可园",
+        "description": "岭南四大名园之一",
+        "images": [
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "可园位于东莞市莞城区博厦村，为清代广东四大名园之一，也是岭南园林的代表作，前人赞为'可羡人间福地，园夸天上仙宫'。"
+      }
+    ]
+  },
+  "北京": {
+    "北京市": [
+      {
+        "id": 7,
         "name": "故宫博物院",
         "description": "明清两代的皇家宫殿，世界文化遗产",
         "images": [
@@ -10,98 +89,82 @@
           "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop",
           "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop"
         ],
-        "videos": [
-          "assets/videos/gugong.mp4"
-        ],
-        "detailDescription": "故宫博物院是中国明清两代的皇家宫殿，旧称紫禁城，位于北京中轴线的中心。是世界上现存规模最大、保存最为完整的木质结构古建筑群，被誉为世界五大宫之首。故宫占地面积72万平方米，建筑面积约15万平方米，有大小宫殿七十多座，房屋九千余间。"
+        "videos": [],
+        "detailDescription": "故宫博物院是中国明清两代的皇家宫殿，旧称紫禁城，位于北京中轴线的中心。是世界上现存规模最大、保存最为完整的木质结构古建筑群，被誉为世界五大宫之首。"
       },
       {
-        "id": 2,
+        "id": 8,
         "name": "天坛公园",
         "description": "明清皇帝祭天的场所，建筑精美",
-        "images": [
-          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop",
-          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop"
-        ],
-        "videos": [],
-        "detailDescription": "天坛公园是明清两朝皇帝祭天祈谷的重要场所，始建于明永乐十八年（1420年），是中国古代建筑艺术的杰出代表。天坛以其严谨的建筑布局、奇特的建筑构造和瑰丽的建筑装饰著称于世。"
-      }
-    ],
-    "海淀区": [
-      {
-        "id": 3,
-        "name": "颐和园",
-        "description": "清代皇家园林，山水园林的典范",
         "images": [
           "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
           "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop"
         ],
-        "videos": [
-          "assets/videos/yiheyuan.mp4"
+        "videos": [],
+        "detailDescription": "天坛公园是明清两朝皇帝祭天祈谷的重要场所，始建于明永乐十八年（1420年），是中国古代建筑艺术的杰出代表。"
+      }
+    ]
+  },
+  "上海": {
+    "上海市": [
+      {
+        "id": 9,
+        "name": "外滩",
+        "description": "上海标志性景观带",
+        "images": [
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop"
         ],
-        "detailDescription": "颐和园是中国清朝时期皇家园林，前身为清漪园，坐落在北京西郊，距城区15公里，占地约290公顷，与圆明园毗邻。它是以昆明湖、万寿山为基址，以杭州西湖为蓝本，汲取江南园林的设计手法而建成的一座大型山水园林。"
+        "videos": [],
+        "detailDescription": "外滩是上海市中心的一段黄浦江畔，是上海最具标志性的景观之一，素有外滩万国建筑博览群之称。"
       },
       {
-        "id": 4,
-        "name": "圆明园",
-        "description": "清代皇家园林遗址，万园之园",
+        "id": 10,
+        "name": "东方明珠",
+        "description": "上海地标性建筑",
+        "images": [
+          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "东方明珠广播电视塔是上海的标志性文化景观之一，位于浦东新区陆家嘴，毗邻黄浦江，与外滩隔江相望。"
+      }
+    ]
+  },
+  "天津": {
+    "天津市": [
+      {
+        "id": 11,
+        "name": "天津之眼",
+        "description": "世界上唯一建在桥上的摩天轮",
+        "images": [
+          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "天津之眼全称天津永乐桥摩天轮，是世界上唯一建在桥上的摩天轮，是天津的标志性景观之一。"
+      }
+    ]
+  },
+  "重庆": {
+    "重庆市": [
+      {
+        "id": 12,
+        "name": "洪崖洞",
+        "description": "重庆特色吊脚楼建筑群",
         "images": [
           "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
           "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop"
         ],
         "videos": [],
-        "detailDescription": "圆明园又称圆明三园，是清代一座大型皇家宫苑，它坐落在北京西北郊，与颐和园毗邻，由圆明园、长春园和绮春园组成，所以也叫圆明三园。此外，还有许多小园，分布在东、西、南三面，众星拱月般环绕周围。"
-      }
-    ]
-  },
-  "浙江": {
-    "杭州市": [
-      {
-        "id": 5,
-        "name": "西湖",
-        "description": "杭州著名风景区，人间天堂",
-        "images": [
-          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop",
-          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
-          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop"
-        ],
-        "videos": [
-          "assets/videos/xihu.mp4"
-        ],
-        "detailDescription": "西湖，位于浙江省杭州市西湖区龙井路1号，杭州市区西部，景区总面积49平方千米，汇水面积21.22平方千米，湖面面积6.38平方千米。西湖南、西、北三面环山，湖中白堤、苏堤、杨公堤、赵公堤将湖面分割成若干水面。"
-      },
-      {
-        "id": 6,
-        "name": "灵隐寺",
-        "description": "杭州古老的佛教寺院，禅宗胜地",
-        "images": [
-          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
-          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop"
-        ],
-        "videos": [],
-        "detailDescription": "灵隐寺，又名云林寺，位于浙江省杭州市，背靠北高峰，面朝飞来峰，始建于东晋咸和元年（326年），占地面积约87000平方米。灵隐寺开山祖师为西印度僧人慧理和尚。"
-      }
-    ],
-    "宁波市": [
-      {
-        "id": 7,
-        "name": "天一阁",
-        "description": "中国现存最古老的私家藏书楼",
-        "images": [
-          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
-          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop"
-        ],
-        "videos": [
-          "assets/videos/tianyige.mp4"
-        ],
-        "detailDescription": "天一阁位于浙江省宁波市海曙区，建于明朝中期，由当时退隐的明朝兵部右侍郎范钦主持建造，占地面积2.6万平方米，已有400多年的历史，是中国现存最早的私家藏书楼，也是亚洲现有最古老的图书馆和世界最早的三大家族图书馆之一。"
+        "detailDescription": "洪崖洞是重庆市核心商圈解放碑的一处特色景观，以最具巴渝传统建筑特色的吊脚楼风貌为主体。"
       }
     ]
   },
   "江苏": {
     "南京市": [
       {
-        "id": 8,
+        "id": 13,
         "name": "中山陵",
         "description": "孙中山先生的陵寝，民国建筑经典",
         "images": [
@@ -109,66 +172,538 @@
           "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop"
         ],
         "videos": [],
-        "detailDescription": "中山陵位于南京市玄武区紫金山南麓钟山风景名胜区内，是中国近代伟大的民主革命先行者孙中山先生的陵寝，及其附属纪念建筑群，面积8万余平方米。中山陵自1926年春动工，至1929年夏建成。"
-      },
-      {
-        "id": 9,
-        "name": "夫子庙",
-        "description": "南京传统商业街区，秦淮河畔",
-        "images": [
-          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop",
-          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop"
-        ],
-        "videos": [
-          "assets/videos/fuzimiao.mp4"
-        ],
-        "detailDescription": "夫子庙是一组规模宏大的古建筑群，历经沧桑，几番兴废，是供奉和祭祀孔子的地方，中国四大文庙之一，被誉为秦淮名胜而成为古都南京的特色景观区，也是蜚声中外的旅游胜地。"
+        "detailDescription": "中山陵位于南京市玄武区紫金山南麓钟山风景名胜区内，是中国近代伟大的民主革命先行者孙中山先生的陵寝。"
       }
     ],
     "苏州市": [
       {
-        "id": 10,
+        "id": 14,
         "name": "拙政园",
         "description": "苏州古典园林代表，江南园林典范",
         "images": [
           "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
-          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
-          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop"
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop"
         ],
-        "videos": [
-          "assets/videos/zhuozhengyuan.mp4"
+        "videos": [],
+        "detailDescription": "拙政园位于江苏省苏州市，始建于明正德初年，是江南古典园林的代表作品，中国四大名园之一。"
+      }
+    ],
+    "无锡市": [
+      {
+        "id": 15,
+        "name": "太湖",
+        "description": "中国第三大淡水湖",
+        "images": [
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop"
         ],
-        "detailDescription": "拙政园位于江苏省苏州市，始建于明正德初年（16世纪初），是江南古典园林的代表作品。拙政园与北京颐和园、承德避暑山庄、苏州留园一起被誉为中国四大名园。"
+        "videos": [],
+        "detailDescription": "太湖是中国五大淡水湖之一，位于长江三角洲的南缘，古称震泽、具区，又名五湖、笠泽。"
       }
     ]
   },
-  "广东": {
-    "广州市": [
+  "浙江": {
+    "杭州市": [
       {
-        "id": 11,
-        "name": "陈家祠",
-        "description": "岭南建筑艺术的瑰宝，广东民间工艺博物馆",
+        "id": 16,
+        "name": "西湖",
+        "description": "杭州著名风景区，人间天堂",
         "images": [
-          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "西湖位于浙江省杭州市西湖区，是中国大陆首批国家重点风景名胜区和中国十大风景名胜之一。"
+      }
+    ],
+    "宁波市": [
+      {
+        "id": 17,
+        "name": "天一阁",
+        "description": "中国现存最古老的私家藏书楼",
+        "images": [
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "天一阁位于浙江省宁波市海曙区，是中国现存最早的私家藏书楼，也是亚洲现有最古老的图书馆。"
+      }
+    ],
+    "温州市": [
+      {
+        "id": 18,
+        "name": "雁荡山",
+        "description": "中国十大名山之一",
+        "images": [
+          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "雁荡山位于浙江省温州市，是中国十大名山之一，素有'海上名山、寰中绝胜'之誉。"
+      }
+    ]
+  },
+  "山东": {
+    "济南市": [
+      {
+        "id": 19,
+        "name": "趵突泉",
+        "description": "天下第一泉",
+        "images": [
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "趵突泉位于山东省济南市历下区，南靠千佛山，东临泉城广场，北望大明湖，面积达158亩，是以泉为主的国家AAAAA级旅游景区特色园林。"
+      }
+    ],
+    "青岛市": [
+      {
+        "id": 20,
+        "name": "八大关",
+        "description": "青岛著名风景区",
+        "images": [
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "八大关是青岛市市南区汇泉东部的一个区域，西邻汇泉湾，南濒太平湾，是中国著名的风景疗养区。"
+      }
+    ]
+  },
+  "河南": {
+    "郑州市": [
+      {
+        "id": 21,
+        "name": "少林寺",
+        "description": "中国佛教禅宗祖庭",
+        "images": [
+          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "少林寺位于河南省郑州市登封市嵩山五乳峰下，因坐落于嵩山腹地少室山茂密丛林之中，故名'少林寺'。"
+      }
+    ],
+    "洛阳市": [
+      {
+        "id": 22,
+        "name": "龙门石窟",
+        "description": "中国石刻艺术宝库",
+        "images": [
+          "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "龙门石窟位于河南省洛阳市，是世界上造像最多、规模最大的石刻艺术宝库，被联合国科教文组织评为'中国石刻艺术的最高峰'。"
+      }
+    ]
+  },
+  "湖北": {
+    "武汉市": [
+      {
+        "id": 23,
+        "name": "黄鹤楼",
+        "description": "江南三大名楼之一",
+        "images": [
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
           "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop"
         ],
         "videos": [],
-        "detailDescription": "陈家祠堂又称陈氏书院，位于广州市中山七路。陈家祠堂为广东省陈氏的合族祠堂，始建于清光绪十四年（1888年），建成于光绪二十年（1894年），历时七年。是广东规模最大、装饰华丽、保存完好的传统岭南祠堂式建筑。"
+        "detailDescription": "黄鹤楼位于湖北省武汉市长江南岸的武昌蛇山之巅，为国家5A级旅游景区，享有'天下江山第一楼'、'天下绝景'之称。"
+      }
+    ]
+  },
+  "湖南": {
+    "长沙市": [
+      {
+        "id": 24,
+        "name": "岳麓山",
+        "description": "长沙著名风景名胜区",
+        "images": [
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "岳麓山位于湖南省长沙市岳麓区，是南岳衡山72峰的最后一峰，中国四大赏枫胜地之一。"
+      }
+    ]
+  },
+  "河北": {
+    "石家庄市": [
+      {
+        "id": 25,
+        "name": "赵州桥",
+        "description": "世界上现存年代久远的单孔敞肩石拱桥",
+        "images": [
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "赵州桥又称安济桥，坐落在河北省石家庄市赵县的洨河上，是世界上现存年代久远、跨度最大、保存最完整的单孔敞肩石拱桥。"
+      }
+    ]
+  },
+  "山西": {
+    "太原市": [
+      {
+        "id": 26,
+        "name": "晋祠",
+        "description": "中国现存最早的皇家园林",
+        "images": [
+          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "晋祠位于山西省太原市晋源区晋祠镇，原为晋王祠，为纪念晋国开国诸侯唐叔虞及母后邑姜后而建。"
+      }
+    ]
+  },
+  "陕西": {
+    "西安市": [
+      {
+        "id": 27,
+        "name": "兵马俑",
+        "description": "世界第八大奇迹",
+        "images": [
+          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "秦始皇兵马俑博物馆位于陕西省西安市临潼区，是以秦始皇兵马俑为基础，在兵马俑坑原址上建立的遗址博物馆。"
+      }
+    ]
+  },
+  "四川": {
+    "成都市": [
+      {
+        "id": 28,
+        "name": "都江堰",
+        "description": "世界文化遗产，古代水利工程",
+        "images": [
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "都江堰位于四川省成都市都江堰市城西，坐落在成都平原西部的岷江上，是世界文化遗产、世界自然遗产。"
+      }
+    ]
+  },
+  "云南": {
+    "昆明市": [
+      {
+        "id": 29,
+        "name": "石林",
+        "description": "世界自然遗产，喀斯特地貌",
+        "images": [
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "石林风景区位于云南省昆明市石林彝族自治县，是世界自然遗产，世界地质公园，国家AAAAA级旅游景区。"
       }
     ],
-    "深圳市": [
+    "大理市": [
       {
-        "id": 12,
-        "name": "世界之窗",
-        "description": "世界著名景观的微缩景区",
+        "id": 30,
+        "name": "洱海",
+        "description": "云南第二大淡水湖",
         "images": [
-          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop",
-          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop"
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop"
         ],
-        "videos": [
-          "assets/videos/shijiezhichuang.mp4"
+        "videos": [],
+        "detailDescription": "洱海古代文献中曾称为叶榆泽、昆弥川、西洱河、西二河等，位于云南大理郊区，为云南省第二大淡水湖。"
+      }
+    ],
+    "丽江市": [
+      {
+        "id": 31,
+        "name": "丽江古城",
+        "description": "世界文化遗产，纳西族古城",
+        "images": [
+          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop"
         ],
-        "detailDescription": "世界之窗位于广东省深圳市深圳湾社区深南大道，是中国著名的缩微景区，以弘扬世界文化为宗旨，是一个把世界奇观、历史遗迹、古今名胜、民族歌舞表演融为一体的人造主题公园。"
+        "videos": [],
+        "detailDescription": "丽江古城位于云南省丽江市古城区，又名大研镇，坐落在丽江坝中部，是世界文化遗产、国家AAAAA级旅游景区。"
+      }
+    ]
+  },
+  "贵州": {
+    "贵阳市": [
+      {
+        "id": 32,
+        "name": "黄果树瀑布",
+        "description": "中国最大的瀑布",
+        "images": [
+          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "黄果树瀑布位于贵州省安顺市镇宁布依族苗族自治县，是中国最大的瀑布、世界著名大瀑布之一。"
+      }
+    ]
+  },
+  "福建": {
+    "福州市": [
+      {
+        "id": 33,
+        "name": "三坊七巷",
+        "description": "中国都市仅存的一块里坊制度活化石",
+        "images": [
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "三坊七巷位于福建省福州市鼓楼区，是福州老城区经历建国后的拆迁建设后仅存下来的一部分。"
+      }
+    ],
+    "厦门市": [
+      {
+        "id": 34,
+        "name": "鼓浪屿",
+        "description": "世界文化遗产，音乐之岛",
+        "images": [
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "鼓浪屿原名圆沙洲，位于福建省厦门市思明区，是世界文化遗产、国家AAAAA级旅游景区。"
+      }
+    ]
+  },
+  "江西": {
+    "南昌市": [
+      {
+        "id": 35,
+        "name": "滕王阁",
+        "description": "江南三大名楼之一",
+        "images": [
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "滕王阁位于江西省南昌市西北部沿江路赣江东岸，始建于唐朝永徽四年，因唐太宗李世民之弟滕王李元婴始建而得名。"
+      }
+    ]
+  },
+  "安徽": {
+    "合肥市": [
+      {
+        "id": 36,
+        "name": "三河古镇",
+        "description": "中国历史文化名镇",
+        "images": [
+          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "三河古镇位于安徽省合肥市肥西县，是中国历史文化名镇，国家AAAAA级旅游景区。"
+      }
+    ]
+  },
+  "广西": {
+    "南宁市": [
+      {
+        "id": 37,
+        "name": "青秀山",
+        "description": "南宁市标志性风景区",
+        "images": [
+          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "青秀山是南宁市重点开发的风景区，除保护和修复原有的古迹如董泉、撷青岩崖刻，石香灶等外。"
+      }
+    ],
+    "桂林市": [
+      {
+        "id": 38,
+        "name": "漓江",
+        "description": "桂林山水甲天下",
+        "images": [
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "漓江发源于桂林市东北兴安县猫儿山，流经桂林、阳朔，至平乐县恭城河口，全长164公里。"
+      }
+    ]
+  },
+  "海南": {
+    "海口市": [
+      {
+        "id": 39,
+        "name": "骑楼老街",
+        "description": "海口历史文化街区",
+        "images": [
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "海口骑楼老街是海口市一处最具特色的街道景观，其中最古老的建筑四牌楼建于南宋，至今有700多年历史。"
+      }
+    ],
+    "三亚市": [
+      {
+        "id": 40,
+        "name": "天涯海角",
+        "description": "海南著名景点",
+        "images": [
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "天涯海角位于海南省三亚市天涯区，是海南最著名的景区之一，因景区两块巨石分别刻有'天涯'、'海角'而得名。"
+      }
+    ]
+  },
+  "辽宁": {
+    "沈阳市": [
+      {
+        "id": 41,
+        "name": "沈阳故宫",
+        "description": "中国现存最完整的两大古代宫殿建筑群之一",
+        "images": [
+          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "沈阳故宫位于辽宁省沈阳市沈河区，是中国现存最完整的两大古代宫殿建筑群之一。"
+      }
+    ],
+    "大连市": [
+      {
+        "id": 42,
+        "name": "老虎滩海洋公园",
+        "description": "中国最大的现代化海滨游乐场",
+        "images": [
+          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "老虎滩海洋公园位于辽宁省大连市中山区滨海中路9号，是中国最大的现代化海滨游乐场。"
+      }
+    ]
+  },
+  "吉林": {
+    "长春市": [
+      {
+        "id": 43,
+        "name": "净月潭",
+        "description": "亚洲最大的人工林海",
+        "images": [
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "净月潭位于吉林省长春市东南部，是长春市的著名风景区，因其弯月状而得名。"
+      }
+    ]
+  },
+  "黑龙江": {
+    "哈尔滨市": [
+      {
+        "id": 44,
+        "name": "中央大街",
+        "description": "哈尔滨最繁华的商业街",
+        "images": [
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "中央大街是哈尔滨市很繁盛的一条商业步行街，北起江畔的防洪纪念塔广场，南接新阳广场。"
+      }
+    ]
+  },
+  "内蒙古": {
+    "呼和浩特市": [
+      {
+        "id": 45,
+        "name": "大召寺",
+        "description": "内蒙古呼和浩特玉泉区南部的一座大藏传佛教寺院",
+        "images": [
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "大召寺位于内蒙古呼和浩特市玉泉区大召前街，是中国内蒙古呼和浩特玉泉区南部的一座大藏传佛教寺院。"
+      }
+    ]
+  },
+  "宁夏": {
+    "银川市": [
+      {
+        "id": 46,
+        "name": "西夏王陵",
+        "description": "东方金字塔",
+        "images": [
+          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "西夏王陵又称西夏帝陵、西夏皇陵，是西夏历代帝王的陵寝所在，被称为'东方金字塔'。"
+      }
+    ]
+  },
+  "新疆": {
+    "乌鲁木齐市": [
+      {
+        "id": 47,
+        "name": "天山天池",
+        "description": "世界自然遗产，天山明珠",
+        "images": [
+          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "天山天池位于新疆维吾尔自治区昌吉回族自治州阜康市境内，是世界自然遗产，国家AAAAA级旅游景区。"
+      }
+    ]
+  },
+  "西藏": {
+    "拉萨市": [
+      {
+        "id": 48,
+        "name": "布达拉宫",
+        "description": "世界文化遗产，藏传佛教圣地",
+        "images": [
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "布达拉宫位于西藏自治区拉萨市玛布日山上，是世界上海拔最高，集宫殿、城堡和寺院于一体的宏伟建筑。"
+      }
+    ]
+  },
+  "青海": {
+    "西宁市": [
+      {
+        "id": 49,
+        "name": "青海湖",
+        "description": "中国最大的内陆湖",
+        "images": [
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "青海湖位于青海省西北部，是中国最大的内陆湖泊，也是青海省名称的由来。"
+      }
+    ]
+  },
+  "甘肃": {
+    "兰州市": [
+      {
+        "id": 50,
+        "name": "黄河铁桥",
+        "description": "兰州标志性建筑",
+        "images": [
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "兰州黄河铁桥位于甘肃省兰州市城关区，是兰州市的标志性建筑之一，被称为'天下黄河第一桥'。"
       }
     ]
   }

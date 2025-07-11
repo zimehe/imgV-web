@@ -3,8 +3,11 @@ let currentData = null;
 let currentProvince = '';
 let currentCity = '';
 
-// 页面加载完成后初始化
-document.addEventListener('DOMContentLoaded', function() {
+// 初始化函数
+function initializeApp() {
+    console.log('开始初始化应用');
+    
+    // 加载数据
     loadData();
     
     // 监听回车键进行密码验证
@@ -15,8 +18,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 checkPassword();
             }
         });
+        console.log('密码输入框事件监听器已添加');
+    } else {
+        console.error('未找到密码输入框');
     }
-});
+}
+
+// 页面加载完成后初始化
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeApp);
+} else {
+    // 如果DOM已经加载完成，直接初始化
+    initializeApp();
+}
 
 // 加载数据
 async function loadData() {
@@ -82,6 +96,9 @@ function checkPassword() {
     const password = document.getElementById('passwordInput').value;
     const errorDiv = document.getElementById('passwordError');
     
+    console.log('输入的密码:', password);
+    console.log('当前数据状态:', currentData ? '已加载' : '未加载');
+    
     if (password === '123456') {
         document.getElementById('passwordModal').style.display = 'none';
         document.getElementById('mainContent').style.display = 'block';
@@ -89,8 +106,12 @@ function checkPassword() {
         // 自动选择第一个省份
         if (currentData && Object.keys(currentData).length > 0) {
             const firstProvince = Object.keys(currentData)[0];
+            console.log('自动选择第一个省份:', firstProvince);
             document.getElementById('provinceSelect').value = firstProvince;
             onProvinceChange();
+        } else {
+            console.log('数据未加载或为空，尝试重新加载');
+            loadData();
         }
     } else {
         errorDiv.textContent = '密码错误，请重试';
@@ -117,16 +138,30 @@ function logout() {
 
 // 填充省份选择器
 function populateProvinces() {
+    console.log('开始填充省份选择器');
     const provinceSelect = document.getElementById('provinceSelect');
+    
+    if (!provinceSelect) {
+        console.error('未找到省份选择器元素');
+        return;
+    }
+    
     provinceSelect.innerHTML = '<option value="">请选择省份</option>';
     
     if (currentData) {
-        Object.keys(currentData).forEach(province => {
+        const provinces = Object.keys(currentData);
+        console.log('找到省份数据:', provinces);
+        
+        provinces.forEach(province => {
             const option = document.createElement('option');
             option.value = province;
             option.textContent = province;
             provinceSelect.appendChild(option);
         });
+        
+        console.log('省份选择器填充完成，共', provinces.length, '个省份');
+    } else {
+        console.error('currentData为空，无法填充省份');
     }
 }
 

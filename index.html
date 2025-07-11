@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>景点图片展示系统</title>
-    <link rel="stylesheet" href="style.css?v=1.0.1">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- 密码验证模态框 -->
@@ -59,6 +59,29 @@
         </div>
     </div>
 
-    <script src="script.js?v=1.0.1"></script>
+    <!-- 加载JavaScript文件 -->
+    <script>
+        // 动态加载JS文件，避免缓存问题
+        function loadScript() {
+            const timestamp = new Date().getTime();
+            const script = document.createElement('script');
+            script.src = `script.js?v=${timestamp}`;
+            script.onload = function() {
+                console.log('JavaScript文件加载成功');
+            };
+            script.onerror = function() {
+                console.error('JavaScript文件加载失败');
+                alert('JavaScript文件加载失败，请检查文件是否存在');
+            };
+            document.head.appendChild(script);
+        }
+        
+        // 页面加载完成后加载脚本
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', loadScript);
+        } else {
+            loadScript();
+        }
+    </script>
 </body>
 </html> 
