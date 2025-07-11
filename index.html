@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>景点图片展示系统</title>
+    <link rel="stylesheet" href="style.css?v=1.0.1">
+</head>
+<body>
+    <!-- 密码验证模态框 -->
+    <div id="passwordModal" class="modal">
+        <div class="modal-content">
+            <h2>请输入访问密码</h2>
+            <input type="password" id="passwordInput" placeholder="请输入密码">
+            <button onclick="checkPassword()">确认</button>
+            <div id="passwordError" class="error-message"></div>
+        </div>
+    </div>
+
+    <!-- 主界面 -->
+    <div id="mainContent" class="main-content" style="display: none;">
+        <header>
+            <h1>🏞️ 景点图片展示系统</h1>
+            <button id="logoutBtn" onclick="logout()">退出登录</button>
+        </header>
+
+        <div class="controls">
+            <!-- 省份选择 -->
+            <div class="province-selector">
+                <label for="provinceSelect">选择省份：</label>
+                <select id="provinceSelect" onchange="onProvinceChange()">
+                    <option value="">请选择省份</option>
+                </select>
+            </div>
+
+            <!-- 城市选择 -->
+            <div class="city-selector">
+                <label>选择城市：</label>
+                <div id="cityButtons" class="city-buttons"></div>
+            </div>
+        </div>
+
+        <!-- 图片展示区域 -->
+        <div class="image-gallery">
+            <div id="imageGrid" class="image-grid"></div>
+        </div>
+
+        <!-- 空状态提示 -->
+        <div id="emptyState" class="empty-state">
+            <p>请选择省份和城市来查看景点图片</p>
+        </div>
+    </div>
+
+    <!-- 详情模态框 -->
+    <div id="detailModal" class="modal">
+        <div class="modal-content detail-modal">
+            <span class="close" onclick="closeDetailModal()">&times;</span>
+            <div id="detailContent"></div>
+        </div>
+    </div>
+
+    <script src="script.js?v=1.0.1"></script>
+</body>
+</html> 

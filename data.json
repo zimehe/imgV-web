@@ -1,0 +1,175 @@
+{
+  "北京": {
+    "东城区": [
+      {
+        "id": 1,
+        "name": "故宫博物院",
+        "description": "明清两代的皇家宫殿，世界文化遗产",
+        "images": [
+          "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop"
+        ],
+        "videos": [
+          "assets/videos/gugong.mp4"
+        ],
+        "detailDescription": "故宫博物院是中国明清两代的皇家宫殿，旧称紫禁城，位于北京中轴线的中心。是世界上现存规模最大、保存最为完整的木质结构古建筑群，被誉为世界五大宫之首。故宫占地面积72万平方米，建筑面积约15万平方米，有大小宫殿七十多座，房屋九千余间。"
+      },
+      {
+        "id": 2,
+        "name": "天坛公园",
+        "description": "明清皇帝祭天的场所，建筑精美",
+        "images": [
+          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "天坛公园是明清两朝皇帝祭天祈谷的重要场所，始建于明永乐十八年（1420年），是中国古代建筑艺术的杰出代表。天坛以其严谨的建筑布局、奇特的建筑构造和瑰丽的建筑装饰著称于世。"
+      }
+    ],
+    "海淀区": [
+      {
+        "id": 3,
+        "name": "颐和园",
+        "description": "清代皇家园林，山水园林的典范",
+        "images": [
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop"
+        ],
+        "videos": [
+          "assets/videos/yiheyuan.mp4"
+        ],
+        "detailDescription": "颐和园是中国清朝时期皇家园林，前身为清漪园，坐落在北京西郊，距城区15公里，占地约290公顷，与圆明园毗邻。它是以昆明湖、万寿山为基址，以杭州西湖为蓝本，汲取江南园林的设计手法而建成的一座大型山水园林。"
+      },
+      {
+        "id": 4,
+        "name": "圆明园",
+        "description": "清代皇家园林遗址，万园之园",
+        "images": [
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "圆明园又称圆明三园，是清代一座大型皇家宫苑，它坐落在北京西北郊，与颐和园毗邻，由圆明园、长春园和绮春园组成，所以也叫圆明三园。此外，还有许多小园，分布在东、西、南三面，众星拱月般环绕周围。"
+      }
+    ]
+  },
+  "浙江": {
+    "杭州市": [
+      {
+        "id": 5,
+        "name": "西湖",
+        "description": "杭州著名风景区，人间天堂",
+        "images": [
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop"
+        ],
+        "videos": [
+          "assets/videos/xihu.mp4"
+        ],
+        "detailDescription": "西湖，位于浙江省杭州市西湖区龙井路1号，杭州市区西部，景区总面积49平方千米，汇水面积21.22平方千米，湖面面积6.38平方千米。西湖南、西、北三面环山，湖中白堤、苏堤、杨公堤、赵公堤将湖面分割成若干水面。"
+      },
+      {
+        "id": 6,
+        "name": "灵隐寺",
+        "description": "杭州古老的佛教寺院，禅宗胜地",
+        "images": [
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "灵隐寺，又名云林寺，位于浙江省杭州市，背靠北高峰，面朝飞来峰，始建于东晋咸和元年（326年），占地面积约87000平方米。灵隐寺开山祖师为西印度僧人慧理和尚。"
+      }
+    ],
+    "宁波市": [
+      {
+        "id": 7,
+        "name": "天一阁",
+        "description": "中国现存最古老的私家藏书楼",
+        "images": [
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop"
+        ],
+        "videos": [
+          "assets/videos/tianyige.mp4"
+        ],
+        "detailDescription": "天一阁位于浙江省宁波市海曙区，建于明朝中期，由当时退隐的明朝兵部右侍郎范钦主持建造，占地面积2.6万平方米，已有400多年的历史，是中国现存最早的私家藏书楼，也是亚洲现有最古老的图书馆和世界最早的三大家族图书馆之一。"
+      }
+    ]
+  },
+  "江苏": {
+    "南京市": [
+      {
+        "id": 8,
+        "name": "中山陵",
+        "description": "孙中山先生的陵寝，民国建筑经典",
+        "images": [
+          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "中山陵位于南京市玄武区紫金山南麓钟山风景名胜区内，是中国近代伟大的民主革命先行者孙中山先生的陵寝，及其附属纪念建筑群，面积8万余平方米。中山陵自1926年春动工，至1929年夏建成。"
+      },
+      {
+        "id": 9,
+        "name": "夫子庙",
+        "description": "南京传统商业街区，秦淮河畔",
+        "images": [
+          "https://images.unsplash.com/photo-1570797197190-8e003a00c846?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop"
+        ],
+        "videos": [
+          "assets/videos/fuzimiao.mp4"
+        ],
+        "detailDescription": "夫子庙是一组规模宏大的古建筑群，历经沧桑，几番兴废，是供奉和祭祀孔子的地方，中国四大文庙之一，被誉为秦淮名胜而成为古都南京的特色景观区，也是蜚声中外的旅游胜地。"
+      }
+    ],
+    "苏州市": [
+      {
+        "id": 10,
+        "name": "拙政园",
+        "description": "苏州古典园林代表，江南园林典范",
+        "images": [
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop"
+        ],
+        "videos": [
+          "assets/videos/zhuozhengyuan.mp4"
+        ],
+        "detailDescription": "拙政园位于江苏省苏州市，始建于明正德初年（16世纪初），是江南古典园林的代表作品。拙政园与北京颐和园、承德避暑山庄、苏州留园一起被誉为中国四大名园。"
+      }
+    ]
+  },
+  "广东": {
+    "广州市": [
+      {
+        "id": 11,
+        "name": "陈家祠",
+        "description": "岭南建筑艺术的瑰宝，广东民间工艺博物馆",
+        "images": [
+          "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1542640244-4d2b7b8c8c4c?w=400&h=300&fit=crop"
+        ],
+        "videos": [],
+        "detailDescription": "陈家祠堂又称陈氏书院，位于广州市中山七路。陈家祠堂为广东省陈氏的合族祠堂，始建于清光绪十四年（1888年），建成于光绪二十年（1894年），历时七年。是广东规模最大、装饰华丽、保存完好的传统岭南祠堂式建筑。"
+      }
+    ],
+    "深圳市": [
+      {
+        "id": 12,
+        "name": "世界之窗",
+        "description": "世界著名景观的微缩景区",
+        "images": [
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop"
+        ],
+        "videos": [
+          "assets/videos/shijiezhichuang.mp4"
+        ],
+        "detailDescription": "世界之窗位于广东省深圳市深圳湾社区深南大道，是中国著名的缩微景区，以弘扬世界文化为宗旨，是一个把世界奇观、历史遗迹、古今名胜、民族歌舞表演融为一体的人造主题公园。"
+      }
+    ]
+  }
+} 
