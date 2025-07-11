@@ -8,24 +8,72 @@ document.addEventListener('DOMContentLoaded', function() {
     loadData();
     
     // 监听回车键进行密码验证
-    document.getElementById('passwordInput').addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-            checkPassword();
-        }
-    });
+    const passwordInput = document.getElementById('passwordInput');
+    if (passwordInput) {
+        passwordInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                checkPassword();
+            }
+        });
+    }
 });
 
 // 加载数据
 async function loadData() {
     try {
+        // 检查是否在file://协议下运行
+        if (window.location.protocol === 'file:') {
+            console.warn('检测到使用file://协议，可能会有CORS问题');
+            alert('检测到您直接打开了HTML文件。\n\n为了正常加载数据，请使用以下方式之一：\n\n1. 使用HTTP服务器（推荐）：\n   - 在命令行中运行：python -m http.server 8000\n   - 然后访问：http://localhost:8000\n\n2. 或者使用其他本地服务器工具\n\n如果您已经在使用HTTP服务器，请忽略此提示。');
+        }
+        
         // 添加时间戳防止缓存
         const timestamp = new Date().getTime();
         const response = await fetch(`data.json?v=${timestamp}`);
-        currentData = await response.json();
+        
+        if (!response.ok) {
+            throw new Error(`HTTP错误! 状态: ${response.status} ${response.statusText}`);
+        }
+        
+        const text = await response.text();
+        if (!text.trim()) {
+            throw new Error('数据文件为空');
+        }
+        
+        try {
+            currentData = JSON.parse(text);
+        } catch (parseError) {
+            throw new Error(`JSON解析错误: ${parseError.message}`);
+        }
+        
+        if (!currentData || Object.keys(currentData).length === 0) {
+            throw new Error('数据文件内容为空或格式不正确');
+        }
+        
         populateProvinces();
+        console.log('数据加载成功！');
+        
     } catch (error) {
         console.error('加载数据失败:', error);
-        alert('数据加载失败，请刷新页面重试');
+        
+        let errorMessage = '数据加载失败：\n\n';
+        
+        if (error.name === 'TypeError' && error.message.includes('fetch')) {
+            errorMessage += '网络请求失败，可能原因：\n';
+            errorMessage += '1. 您可能直接打开了HTML文件（file://协议）\n';
+            errorMessage += '2. 请使用HTTP服务器运行此应用\n';
+            errorMessage += '3. 在命令行运行：python -m http.server 8000\n';
+            errorMessage += '4. 然后访问：http://localhost:8000\n\n';
+        } else if (error.message.includes('HTTP错误')) {
+            errorMessage += `服务器错误：${error.message}\n`;
+        } else if (error.message.includes('JSON解析错误')) {
+            errorMessage += `数据格式错误：${error.message}\n`;
+        } else {
+            errorMessage += `未知错误：${error.message}\n`;
+        }
+        
+        errorMessage += '\n请检查控制台获取更多详细信息。';
+        alert(errorMessage);
     }
 }
 

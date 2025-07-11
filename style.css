@@ -13,7 +13,7 @@ body {
 
 /* 模态框样式 */
 .modal {
-    display: flex;
+    display: none; /* 默认隐藏模态框 */
     position: fixed;
     z-index: 1000;
     left: 0;
@@ -24,6 +24,11 @@ body {
     backdrop-filter: blur(10px);
     align-items: center;
     justify-content: center;
+}
+
+/* 密码模态框需要默认显示 */
+#passwordModal {
+    display: flex;
 }
 
 .modal-content {
